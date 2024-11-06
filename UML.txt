@@ -1,0 +1,52 @@
++-----------------+
+|     Mesa        |
++-----------------+
+| - numero: int   |
+| - estado: bool  | // ocupada o libre
+| - pedidos: List<Pedido> |
+| - cliente: Cliente |
++-----------------+
+| + agregarPedido(pedido: Pedido): void |
+| + calcularTotal(): float               |
++-----------------+
+
++-----------------+
+|    Cliente      |
++-----------------+
+| - nombre: str   |
+| - mesa: Mesa    |
++-----------------+
+| + realizarPedido(pedido: Pedido): void |
++-----------------+
+
++-----------------+
+|    Pedido       |
++-----------------+
+| - productos: List<Producto> |
+| - total: float              |
++-----------------+
+| + calcularTotal(): float    |
++-----------------+
+
++-----------------+
+|    Producto     |
++-----------------+
+| - nombre: str   |
+| - precio: float |
+| - tipo: str     | // bebida o comida
++-----------------+
+| + getPrecio(): float |
++-----------------+
+
++-----------------+
+|    Personal     |
++-----------------+
+| - nombre: str   |
+| - rol: str      |
++-----------------+
+
++-----------------+
+|     Mozo        | ---|> Personal
++-----------------+
+| + asignarMesa(mesa: Mesa, cliente: Cliente): void |
++-----------------+
