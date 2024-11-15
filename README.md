@@ -1,3 +1,8 @@
+Integrantes:
+Nicolas Reboredo
+Roberto Alejandro Rodriguez
+Carolina Galarza Payaslian.
+
 Consigna:
 
 Trabajo Práctico 
@@ -23,3 +28,7 @@ Agregar métodos relevantes en cada clase, como:
 agregar_pedido() en la clase Mesa.
 calcular_total() en la clase Pedido.
 asignar_mesa() en la clase Mozo (subclase de Personal).
+
+En la carpeta /src esta todo el codigo.
+
+El archivo /uml.txt tiene el UML en formato texto y tambien esta la imagen del diagrama que realizamos basado en ese archivo.
